@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Css Selector</title>
+		
+		<style>
+			/* 모든 input 태그의 checked 속성이 있는 것 */
+			/*input:checked {
+				width:20px; 
+				height:20px;
+			}*/
+			
+			/* input 태그의 name이 fav_lang 중에서 checked 속성이 있는 것 */
+			input[name=fav_lang]:checked {
+				width:20px; 
+				height:20px;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<div>
+				<input id="fav_language1" type="radio" name="fav_lang" value="html"/>
+				<label for="fav_language1">HTML</label> 
+				<br>
+				
+				<input id="fav_language2" type="radio" name="fav_lang" value="css" checked/>
+				<label for="fav_language2">CSS</label> 
+				<br>
+				
+				<input id="fav_language3" type="radio" name="fav_lang" value="javascript"/>
+				<label for="fav_language3">JavaScript</label> 
+				<br>
+			</div>
+			
+			<hr/>
+			
+			<div>
+				<input id="hobby1" type="checkbox" name="hobby" value="game"/>
+				<label for="hobby1">Game</label> 
+				<br>
+				
+				<input id="hobby2" type="checkbox" name="hobby" value="movie" checked/>
+				<label for="hobby2">Movie</label> 
+				<br>
+				
+				<input id="hobby3" type="checkbox" name="hobby" value="music"/>
+				<label for="hobby3">Music</label> 
+				<br>
+			</div>
+		</form>
+	</body>
+</html>
