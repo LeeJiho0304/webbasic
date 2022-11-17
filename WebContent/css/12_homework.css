@@ -1,0 +1,70 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+#header {
+	width: 1600px;
+	box-sizing: border-box;
+}
+
+#top > img {
+	width: 100%;
+	border: 1px solid red;
+}
+
+.top_menu {
+	dispaly: flex;
+	box-sizing: border-box;
+	border: 1px solid orange;
+}
+
+#center {
+	display: flex;
+}
+
+#center .leftside {
+	flex-grow : 6.5;
+	box-sizing: border-box;
+}
+
+#center .rightside {
+	flex-grow : 3.5;
+	box-sizing: border-box;
+}
+
+#center .img {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#footer, .left_webtoon {
+	display: flex;
+}
+
+#footer .leftside {
+	flex-grow : 6.5;
+	box-sizing: border-box;
+}
+
+#footer .rightside {
+	flex-grow : 3.5;
+	padding: 0px 15px 30px 15px;
+	box-sizing: border-box;
+	border: 1px solid blue;
+}
+
+.rs1, .rs2 {
+	dispaly: flex;
+	height: 200px;
+	border: 1px solid red;
+}
+
+.rs1> img {
+	flex-grow: 1
+}
